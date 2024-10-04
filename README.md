@@ -21,7 +21,7 @@ This is the code repo for EMNLP 2024 main conference paper: ActPlan-1K: Benchmar
 
    1. For counterfactual activities, scene instances are first sampled with the activity-definitions in last step, by following the [instructions](https://stanfordvl.github.io/iGibson/sampling.html). The sampled results are in `urdf` file forms.
 
-   For normal activities, we use the predefined activities in [Behavior100](https://github.com/StanfordVL/bddl/tree/v1.0.1). The sampled scene instances can be directly downloaded from [iGibson2 data](https://stanfordvl.github.io/iGibson/dataset.html).
+      For normal activities, we use the predefined activities in [Behavior100](https://github.com/StanfordVL/bddl/tree/v1.0.1). The sampled scene instances can be directly downloaded from [iGibson2 data](https://stanfordvl.github.io/iGibson/dataset.html).
 
    2. With the sampled counterfactual activity and downloaded normal activity urdf instances, then load them in iGibson2 simulator follow the example in iGibson [sample loader](https://github.com/StanfordVL/iGibson/tree/master/igibson/utils/data_utils/sampling_task/sampling_loader.py). 
 
