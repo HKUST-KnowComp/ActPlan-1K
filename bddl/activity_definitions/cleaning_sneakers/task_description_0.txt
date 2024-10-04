@@ -1,0 +1,5 @@
+The task goal is to clean the sneakers. There are four gym shoes on the living room floor. Gym shoes 1 and 2 are stained, while gym shoes 3 and 4 are dusty. On the kitchen floor, there is an agent, a sink, and a cabinet. On the kitchen countertop, there is a towel and a brush. The towel and the brush are currently unstained. In the living room, there is a floor and a table as shown in the images.
+
+The goal is to place the towel on the kitchen countertop, have the brush next to the towel, ensure the soap is inside the sink, remove the dust from all the gym shoes, remove the stains from all the gym shoes, place two gym shoes next to the living room table, place two gym shoes under the living room table, and have all the gym shoes on the living room floor.
+
+Generate admissible procedural plans without natural language, using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

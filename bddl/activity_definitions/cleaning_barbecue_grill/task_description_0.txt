@@ -1,0 +1,2 @@
+The task goal is to clean a barbecue grill. There is a grill on the floor in the garage. The grill is both stained and dusty. There is a bucket and a rag on the table in the storage room as shown in the images. The goal is to remove the stains and dust from the grill. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

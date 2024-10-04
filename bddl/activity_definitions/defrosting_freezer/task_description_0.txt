@@ -1,0 +1,3 @@
+The task is to defrost the freezer. There is a receptacle and a bucket on the floor. A scraper, a towel, and a rag are on top of the countertop. The towel is not stained, and the rag is not soaked. There are three food items (food 1, food 2, and food 3) inside the electric refrigerator as shown in the images. The goal is to achieve the following: Place the receptacle next to the electric refrigerator. Place all the food items inside the bucket. Defrost the refrigerator with the tools.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

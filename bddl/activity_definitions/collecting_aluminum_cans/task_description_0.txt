@@ -1,0 +1,2 @@
+The task is to collect aluminum cans. There are three aluminum cans on top of the bed. There are three more aluminum cans on the floor. There is a bucket on top of the bed. The goal is to achieve the following: Place all the aluminum cans inside the bucket.
+Generate admissible procedural plans. The planning step is described with action(object). The actions include walk_to, place_on_top, grab, place_inside, open/close, switch-on/off.

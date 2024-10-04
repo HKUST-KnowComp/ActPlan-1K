@@ -1,0 +1,58 @@
+(define
+    (problem bottling_fruit_sample)
+    (:domain igibson)
+    (:objects
+         apricot.n.02_1 - apricot.n.02
+        electric_refrigerator.n.01_1 - electric_refrigerator.n.01
+        peach.n.03_1 - peach.n.03
+        pear.n.01_1 - pear.n.01
+        clove.n.03_1 - clove.n.03
+        jar.n.01_1 jar.n.01_2 - jar.n.01
+        countertop.n.01_1 - countertop.n.01
+        knife.n.01_1 - knife.n.01
+        floor.n.01_1 - floor.n.01
+        cabinet.n.01_1 - cabinet.n.01
+        agent.n.01_1 - agent.n.01
+    )
+    (:init 
+        (inside apricot.n.02_1 electric_refrigerator.n.01_1) 
+        (frozen apricot.n.02_1) 
+        (not 
+            (sliced peach.n.03_1)
+        ) 
+        (not 
+            (sliced pear.n.01_1)
+        ) 
+        (inside pear.n.01_1 electric_refrigerator.n.01_1) 
+        (inside peach.n.03_1 electric_refrigerator.n.01_1) 
+        (ontop jar.n.01_1 countertop.n.01_1) 
+        (ontop jar.n.01_2 countertop.n.01_1) 
+        (ontop clove.n.03_1 countertop.n.01_1)
+        (ontop knife.n.01_1 countertop.n.01_1) 
+        (inroom floor.n.01_1 kitchen) 
+        (inroom electric_refrigerator.n.01_1 kitchen) 
+        (inroom countertop.n.01_1 kitchen) 
+        (inroom cabinet.n.01_1 kitchen) 
+        (onfloor agent.n.01_1 floor.n.01_1)
+    )
+    (:goal 
+        (and 
+            (exists 
+                (?jar.n.01 - jar.n.01) 
+                (inside ?pear.n.01_1 ?jar.n.01) 
+            )
+            (exists 
+                (?jar.n.01 - jar.n.01) 
+                (inside ?peach.n.03_1 ?jar.n.01) 
+            ) 
+            (forall 
+                (?jar.n.01 - jar.n.01) 
+                (not 
+                    (open ?jar.n.01)
+                )
+            ) 
+            (sliced ?pear.n.01_1) 
+            (sliced ?peach.n.03_1)
+        )
+    )
+)

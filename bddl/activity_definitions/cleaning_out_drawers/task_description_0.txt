@@ -1,0 +1,2 @@
+The task goal is to clean out the drawers. In cabinet, there are bowls and a piece of cloth. In another cabinet, there are spoons. The kitchen also contains a sink as shown in the images. The goal is to clean items in the sink. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

@@ -1,0 +1,4 @@
+The task is to put up Christmas decorations inside the house. There is a Christmas tree, a carton, wrapping papers, and various items on the floor. The wreath and bows are inside the carton, while the candles and wrapping papers are on the floor. The goal is to achieve the following: Ensure that each wrapping paper is either next to or under the Christmas tree. Place each candle on top of the dining room table. Place one bow on top of the dining room table and two bows on top of the living room sofa. Place the wreath on top of the dining room table.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+
+

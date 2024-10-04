@@ -1,0 +1,3 @@
+The task is to rearrange furniture in the bedroom. There are lamps and seat on the floor. A rocking chair is on top of the bed as shown in the images. The goal is to achieve the following: Place the lamps on suitable places in the room. Ensure that one seat is touching the bed. Place the other seat next to the bedroom window.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+

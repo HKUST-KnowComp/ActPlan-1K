@@ -1,0 +1,2 @@
+The task is to put away dishes in the kitchen after cleaning them. There are plates on the countertops. There are countertops and cabinet in the kitchen as shown in the images. The goal is to achieve the following: Ensure that all the plates are inside the cabinet.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

@@ -1,0 +1,2 @@
+The task goal is to clean a bathtub. The bathtub is stained. There is rag and a bucket on the floor. The soap is in sink and the scrub brush is inside the bathtub as shown in the images. The goal is to remove the stains from the bathtub. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

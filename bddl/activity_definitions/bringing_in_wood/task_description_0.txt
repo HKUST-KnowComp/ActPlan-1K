@@ -1,0 +1,2 @@
+The task goal is to bring in wood. There are three plywood pieces on the living room floor as shown in the images. The goal is to move all the plywood pieces to the kitchen floor. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

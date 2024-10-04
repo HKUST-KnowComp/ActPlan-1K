@@ -1,0 +1,2 @@
+The task is to unpack a suitcase in the living room. There is a carton on the floor containing socks, perfume, a toothbrush, and a notebook as shown in the images. The goal is to achieve the following: Ensure that the carton is on the floor. Ensure that all socks are on top of the sofa. Ensure that the perfume, toothbrush, and notebook are on top of the sofa.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

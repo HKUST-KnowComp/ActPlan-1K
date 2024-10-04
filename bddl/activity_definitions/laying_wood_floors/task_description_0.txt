@@ -1,0 +1,2 @@
+The task is to lay wood floors. There are four plywood boards on the floor in the kitchen. There is also a hammer and a saw on the floor in the kitchen. The kitchen is connected to the living room as shown in the images. The goal is to achieve the following: Lay each plywood board on the floor in the living room.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

@@ -1,0 +1,3 @@
+The task goal is to collect misplaced items. There is a gym shoe under the table and on the floor, a notebook under the table in dining room. A necklace inside the cabinet, and a sock on the sofa and a sock on floor in living room. The goal is to collect these items and place them on the table in dining room. 
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

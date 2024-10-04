@@ -1,0 +1,2 @@
+The task is to put away toys in the living room and dining room. There are several playthings and a carton on the floor. One of the cartons is on top of the table. There is a table in the dining room as shown in the images. The goal is to achieve the following: Ensure that each plaything is inside a carton.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

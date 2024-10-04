@@ -1,0 +1,3 @@
+The task is to make tea. There are several items inside the kitchen cabinet: a teapot, a tea bag, a lemon, and a knife. The lemon is inside the electric refrigerator. The kitchen also contains the cabinet, an electric refrigerator, a stove, and the floor as shown in the images. The goal is to achieve the following: Slice the lemon. Place the teapot on top of the stove and make tea with tea_bag and lemon.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

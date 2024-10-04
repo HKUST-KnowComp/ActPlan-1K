@@ -1,0 +1,2 @@
+The task is to wax cars or other vehicles in the garage. There is a vehicle on the floor, which is dusty. There is a vessel on a shelf. There is also a rag inside the shelf as shown in the images. The goal is to achieve the following: Ensure that the vehicle is not dusty.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

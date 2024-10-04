@@ -1,0 +1,2 @@
+The task is to polish the silver spoons in the kitchen cabinet. All the spoons are dusty, and there is a rag inside the cabinet along with the spoons. The cabinet and floor are in the kitchen as shown in the images. The goal is to achieve the following: Ensure that all the spoons are not dusty. Ensure that all the spoons are inside the cabinet.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

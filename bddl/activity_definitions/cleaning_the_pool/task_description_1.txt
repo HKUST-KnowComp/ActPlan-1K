@@ -1,0 +1,5 @@
+The task goal is to clean the pool. The pool is currently on the floor and stained. There is a scrub brush, a rag, paper towel, broom, and detergent also on the floor. The floor and a shelf are located in the garage, and there is a sink in the storage room. The agent is currently on the floor.
+
+The goal is to have the pool on the floor, free of stains, with the scrub brush on the shelf, and the detergent on the floor. 
+
+Generate admissible procedural plans. The planning step is described with action(object). The actions include walk_to, place_on_top, grab, place_inside, open/close, switch-on/off.

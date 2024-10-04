@@ -1,0 +1,2 @@
+The task is to polish the shoes in the bathroom. Both shoes are stained, and there is a rag on the floor. The rag is not soaked. The sink and floor are in the bathroom as shown in the images. The goal is to achieve the following: Ensure that the rag is next to the sink. Ensure that the rag is soaked. Ensure that both shoes are not stained.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

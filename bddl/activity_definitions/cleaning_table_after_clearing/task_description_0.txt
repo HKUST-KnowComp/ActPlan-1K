@@ -1,0 +1,3 @@
+The task goal is to clean the table after clearing it. The table, is currently stained. Inside the kitchen cabinet, there is soap and a dishtowel. In the kitchen, there is the cabinet and the sink as shown in the images. The goal is to remove the stains from the table.
+
+Generate admissible procedural plans without natural language, using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

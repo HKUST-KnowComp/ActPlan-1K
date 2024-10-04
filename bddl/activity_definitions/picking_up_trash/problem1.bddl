@@ -1,0 +1,46 @@
+(define (problem picking_up_trash_0)
+    (:domain igibson)
+
+    (:objects
+        ashcan.n.01_1 - ashcan.n.01
+        pad.n.01_1 pad.n.01_2 pad.n.01_3 - pad.n.01
+        pop.n.02_1 pop.n.02_2 - pop.n.02
+        water.n.06_1 - water.n.06
+        trowel.n.01_1 - trowel.n.01
+        spatula.n.01_1 - spatula.n.01
+        rag.n.01_1 - rag.n.01
+        table.n.02_1 - table.n.02
+        floor.n.01_1 floor.n.01_2 - floor.n.01
+        agent.n.01_1 - agent.n.01
+    )
+    
+    (:init 
+        (onfloor ashcan.n.01_1 floor.n.01_2) 
+        (onfloor pad.n.01_1 floor.n.01_2) 
+        (onfloor pad.n.01_2 floor.n.01_2) 
+        (onfloor pad.n.01_3 floor.n.01_1) 
+        (onfloor pop.n.02_1 floor.n.01_1) 
+        (onfloor pop.n.02_2 floor.n.01_1) 
+        (ontop water.n.06_1 table.n.02_1)
+        (ontop trowel.n.01_1 table.n.02_1)
+        (ontop spatula.n.01_1 table.n.02_1)
+        (ontop rag.n.01_1 table.n.02_1)
+        (inroom table.n.02_1 living_room)
+        (inroom floor.n.01_2 kitchen) 
+        (inroom floor.n.01_1 living_room) 
+        (onfloor agent.n.01_1 floor.n.01_2)
+    )
+    
+    (:goal 
+        (and 
+            (forall 
+                (?pad.n.01 - pad.n.01) 
+                (inside ?pad.n.01 ?ashcan.n.01_1)
+            ) 
+            (forall 
+                (?pop.n.02 - pop.n.02) 
+                (inside ?pop.n.02 ?ashcan.n.01_1)
+            )
+        )
+    )
+)

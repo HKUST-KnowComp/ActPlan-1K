@@ -1,0 +1,2 @@
+The task is to store food items in the kitchen. There are oatmeal, chips, vegetable oil, and sugar placed on the countertop as shown in the images. The goal is to achieve the following: Ensure that the oatmeal (both instances), chips (both instances), vegetable oil (both instances), and sugar (both instances) are inside the cabinet.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

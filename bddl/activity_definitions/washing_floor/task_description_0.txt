@@ -1,0 +1,2 @@
+The task is to wash the floor in the bathroom. There is a bucket on the floor. There is soap and a towel on top of the floor. The towel is not stained. The floor is dusty and stained as shown in the images. The goal is to achieve the following: Ensure that the floor is not dusty and not stained.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

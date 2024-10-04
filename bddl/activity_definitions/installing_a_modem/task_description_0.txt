@@ -1,0 +1,3 @@
+The task is to install a modem. The modem is not toggled on. The modem is on top of the table in the home office. There is a table and the floor in the home office as shown in the images. The goal is to achieve the following: Toggle on the modem. Place the modem under the table.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

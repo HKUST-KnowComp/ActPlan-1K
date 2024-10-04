@@ -1,0 +1,3 @@
+The task is to install alarms. There are two alarms on top of table in the living room. Both alarms are not toggled on. There is a table in the dining room as shown in the images. The goal is to achieve the following: Place each alarm on top of a table. Toggle on both alarms.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

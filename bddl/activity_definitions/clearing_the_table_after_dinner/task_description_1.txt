@@ -1,0 +1,6 @@
+The task is to clearing the table after dinner. There are two cups, four bowls, catsup, two jams, and a beverage on the table. There is also a beverage and two buckets on the floor as shown in the image. The goal is to achieve the following: Place each cup inside a bucket. Place each bowl inside a bucket. Place the catsup and beverage inside a bucket. And place the jams to electric_refrigerator.
+
+Generate admissible procedural plans without natural language, using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+
+
+

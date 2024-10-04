@@ -1,0 +1,3 @@
+The task is to pack food for work in the kitchen. There is a carton on the floor, a sandwich inside the electric refrigerator, an apple, chives, cinnamon, zucchini, chili on the countertop, snack food inside the cabinet, and juice on the countertop as shown in the images. The goal is to achieve the following: Ensure that the sandwich, apple, snack food, and juice are inside the carton. Also take items that are suitable for easy seasoning.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

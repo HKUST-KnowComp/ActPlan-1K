@@ -1,0 +1,3 @@
+The task is to lock every window. There are four open windows. Window 1 is in the bedroom, window 2 is in the kitchen, and windows 3 and 4 are in the living room as shown in the images. The goal is to achieve the following: Ensure that windows are not open.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

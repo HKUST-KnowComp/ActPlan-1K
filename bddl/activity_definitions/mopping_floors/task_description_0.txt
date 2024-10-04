@@ -1,0 +1,2 @@
+The task is to mop floors in bathroom. There is a mop on floor in corridor. The floor in bathroom is stained. There is a soap, a bucket, and a clean piece of cloth on the floor in bathroom as shown in the images. The bathroom also contains a sink. The goal is to clean the bathroom floor with the tools. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

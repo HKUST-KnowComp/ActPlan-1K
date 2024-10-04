@@ -1,0 +1,2 @@
+The task is to pack a car for a trip in the storage room. There is a car on the floor in garage, a briefcase and a duffel bag on the floor in the storage room, a pencil box and a headset on the table in the storage room as shown in the images. The goal is to achieve the following: Ensure that the briefcase, pencil box, headset, and duffel bag are inside the car.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

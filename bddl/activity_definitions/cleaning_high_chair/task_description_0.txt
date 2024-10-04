@@ -1,0 +1,2 @@
+The task goal is to clean the high chair. The high chair is dusty and located on the floor in the dining room. Inside the kitchen cabinet, there is a piece of cloth. The agent is currently on the floor in the kitchen as shown in the images. The goal is to remove the dust from the high chair.
+Generate admissible procedural plans without natural language using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

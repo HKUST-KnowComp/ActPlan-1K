@@ -1,0 +1,2 @@
+The task is to polish the furniture in the living room. The shelf and table are dusty. There is a rag on top of the table in the living room as shown in the images. The goal is to achieve the following: Ensure that the table is not dusty. Ensure that the shelf is not dusty. Ensure that the rag is underneath the table.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

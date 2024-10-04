@@ -1,0 +1,2 @@
+The output is The task goal is to clean the hot tub. The hot tub is currently on the floor and stained. There is a scrub brush, dustpan, and perfume also on the floor. The garage is smelly. The floor is located in the garage, and there is a sink in the bathroom as shown in the images.
+Generate admissible procedural plans. The planning step is described with action(object). The actions include walk_to, place_on_top, grab, place_inside, open/close, switch-on/off.

@@ -1,0 +1,3 @@
+The task is to install a printer. There is a printer on the floor in the home office. The printer is not toggled on. There is a table and the floor in the home office. The goal is to achieve the following: Place the printer on top of the table. Toggle on the printer.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

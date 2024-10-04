@@ -1,0 +1,3 @@
+The task is to pack picnics in the kitchen. There are three cartons on the floor, chips inside the cabinet, sandwiches and a melon on the countertop, strawberries, grapes, peaches, pops, beers, and water inside the electric refrigerator, and water inside the cabinet as shown in the images. The goal is to achieve the following: Ensure that all the chips and sandwiches are inside one of the cartons. Ensure that all the strawberries,grapes, and peaches, as well as the melon, are inside another carton.
+Ensure that all the pops, beers, and water bottles are inside the third carton.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

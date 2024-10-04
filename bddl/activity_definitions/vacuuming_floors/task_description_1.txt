@@ -1,0 +1,2 @@
+The task is to vacuum the floors in the bedroom. The floor is dusty. There is a vacuum and an ashcan (trash can) on the floor as shown in the images. Two chocolate boxs and two bracelets are on the floor. The goal is to achieve the following: Ensure that the floor is not dusty.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

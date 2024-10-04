@@ -1,0 +1,4 @@
+The task is to pick up take-out food and place it on the dining room table. There is one carton on the floor containing sushi and hamburgers as shown in the images. The goal is to achieve the following: Ensure that all the cartons are on top of the dining room table.
+Ensure that the sushi and hamburgers are inside the same carton.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

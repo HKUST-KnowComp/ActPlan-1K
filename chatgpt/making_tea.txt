@@ -1,0 +1,19 @@
+😃 YOU: What are common procedures for making tea with teapot, tea_bag, knife in cabinet, lemon in electric_refrigerator, and a stove, all in the kitchen? What unexpected situations might happen during the common procedure? List them seperately.
+
+🤖 AI: Common procedures for making tea with a teapot, tea bag, knife in a cabinet, lemon in an electric refrigerator, and a stove, all in the kitchen are as follows:
+
+1. Fill the teapot with water and place it on the stove to boil.
+2. While waiting for the water to boil, take out a tea bag from its container and place it in a cup.
+3. Cut a slice of lemon using a knife from the cabinet and place it on a plate.
+4. Once the water has boiled, pour it into the cup with the tea bag.
+5. Allow the tea to steep for a few minutes before removing the tea bag.
+6. Add the slice of lemon to the tea and stir.
+
+Unexpected situations that might happen during the common procedure are:
+
+1. The teapot may have a crack or chip, causing it to leak or break during use.
+2. The knife in the cabinet may be dull or not suitable for cutting the lemon, requiring the use of an alternative tool.
+3. The electric refrigerator may not be working, causing the lemon to spoil or become unsafe to use.
+4. The stove may malfunction or have a gas leak, causing a fire or explosion.
+5. The tea bag may break or tear, causing loose tea leaves to float in the cup.
+6. The lemon may be too sour or not fresh, affecting the taste of the tea.

@@ -1,0 +1,2 @@
+The task goal is to bottle fruits. There are strawberries and peaches inside the electric refrigerator. The fruits are not sliced. There are two jars and a carving knife on the countertop as shown in the images. The goal is to bottle the fruits by placing sliced strawberries in one jar and sliced peaches in another jar. The jars should remain closed.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

@@ -1,0 +1,2 @@
+The task goal is to box up books for storage. There are several books on the floor and two books on the shelf. There is also a carton on the floor. The goal is to place all the books inside the carton. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

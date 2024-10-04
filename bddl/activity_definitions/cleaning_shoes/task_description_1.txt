@@ -1,0 +1,3 @@
+The task goal is to clean the shoes. On the bed, there is soap, a dry rag, and four shoes. On the floor, there is a towel and a paintbrush. Two shoes are stained, while two shoes are dusty. The rag is currently not soaked. In the bedroom, there is also a floor and a bed. In the bathroom, there is a sink as shown in the images. The goal is to remove the stains from all the shoes, ensure they are not dusty, and place the towel on the floor.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

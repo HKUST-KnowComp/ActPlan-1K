@@ -1,0 +1,3 @@
+The task goal is to clean the stove. The stove is currently dusty and stained. Inside the kitchen cabinet, there is soap, and a dishtowel. The rag is currently not soaked and not stained. The dishtowel is also not soaked. In the kitchen, there is a sink, the stove, the cabinet, and the floor as shown in the images. The goal is to remove the dust and stains from the stove, have the rag and dishtowel next to the sink.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

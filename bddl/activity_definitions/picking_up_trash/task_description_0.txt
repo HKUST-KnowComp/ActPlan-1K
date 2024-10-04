@@ -1,0 +1,3 @@
+The task is to pick up trash and place it inside the ashcan. There are pads and pops on the floor in both the kitchen and living room. The ashcan is on the floor in the kitchen. The goal is to achieve the following: Ensure that all pads are inside the ashcan. Ensure that all pops are inside the ashcan.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

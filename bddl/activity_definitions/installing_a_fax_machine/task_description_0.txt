@@ -1,0 +1,3 @@
+The task is to install a fax machine. There is a fax machine facsimile on the floor in the home office. The fax machine is not toggled on. There is a table in the home office as shown in the images. The goal is to achieve the following: Place the fax machine on top of the table. Toggle on the fax machine.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

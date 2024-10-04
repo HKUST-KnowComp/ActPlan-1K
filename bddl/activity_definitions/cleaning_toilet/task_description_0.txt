@@ -1,0 +1,3 @@
+The task goal is to clean the toilet. The toilet is stained. There is a scrub brush and detergent on the floor. The toilet, floor, and sink are located in the bathroom. The goal is to have the toilet free of stains, with the scrub brush and detergent on the floor.
+
+Generate admissible procedural plans. The planning step is described with action(object). The actions include walk_to, place_on_top, grab, place_inside, open/close, switch-on/off.

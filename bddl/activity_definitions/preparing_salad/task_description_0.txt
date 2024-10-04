@@ -1,0 +1,4 @@
+The task is to prepare a salad in the kitchen. There are lettuce, apples, tomatoes, and radishes on the countertop. The tomatoes are inside the electric refrigerator. There are plates inside the cabinet, and they are not dusty. The carving knife is inside the cabinet as well as shown in the images. The goal is to achieve the following: Make salad with each lettuce, each apple is sliced, each tomato and each radish.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+

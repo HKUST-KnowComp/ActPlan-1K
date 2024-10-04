@@ -1,0 +1,5 @@
+The task goal is to clean a closet. There is a dusty shelf and a dusty cabinet in the closet. There is jewelry, a hat, sandals, an umbrella, and a towel on the floor. The towel is inside a cabinet. The closet also contains a shelf and a dusty floor. The agent is currently on the bedroom floor. The goal is to organize the items inside the closet.
+
+The procedural plan should ensure that all the jewelry is inside the third cabinet. The umbrella should not be inside the third cabinet. The hat should either be inside the first cabinet or on top of the shelf. The sandals should be next to the shelf and on the floor. The third cabinet, the shelf, and the floor should all be dust-free.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

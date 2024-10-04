@@ -1,0 +1,4 @@
+The task goal is to clean up after a meal. There are multiple objects involved, including bowls, plates, cups, two hamburgers, a sack, chairs, a table, and cleaning supplies. Some of these items are stained, and they are placed on the table and chair as shown in the images. The electricity is down.
+The goal is to have all the bowls, plates, and cups free of stains, with the hamburger inside the sack. Additionally, the sack should be on the floor, the floor, chairs, and table should not be stained.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

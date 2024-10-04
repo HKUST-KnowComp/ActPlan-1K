@@ -1,0 +1,3 @@
+The task is to pack an adult's bags in the bedroom. There is a backpack on the floor, a hanger, two makeup items, a toothbrush, and a mouse on top of the bed. There are two pieces of jewelry on the floor. The door is open. The goal is to achieve the following:
+Ensure that all jewelry items are inside the backpack. Ensure that all makeup items are inside the backpack. Ensure that the toothbrush and the mouse are inside the backpack. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

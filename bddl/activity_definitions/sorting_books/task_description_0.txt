@@ -1,0 +1,2 @@
+The task is to sort books in the living room. There are hardback books on top of the table and one hardback book and one regular book on the floor. The living room has a table, a shelf as shown in the images. The goal is to achieve the following: Ensure that all hardback books are on top of the shelf. Ensure that all regular books are on top of the shelf.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

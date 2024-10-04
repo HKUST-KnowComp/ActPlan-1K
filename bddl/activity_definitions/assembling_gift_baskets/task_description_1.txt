@@ -1,0 +1,2 @@
+The task goal is to assemble gift baskets. There are four baskets on the floor and several candles, cookies, cheeses, and bows on the tables. The goal is to place one of each item inside one of the baskets as shown in the images. Two of the cookies are burnt.
+Generate admissible procedural plans without natural language using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

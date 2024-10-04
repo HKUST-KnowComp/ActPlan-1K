@@ -1,0 +1,3 @@
+The task is to clean the windows. There are two towels, two rags, and a bottle of cleansing agent inside the cabinet. Both rags are not soaked. The windows are dusty, but the sink is not dusty as shown in the images. The windows may be hard to reach without tools. A highchair, a ladder, and a stool are on the floor. The goal is clean the windows with the rags.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

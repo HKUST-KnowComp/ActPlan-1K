@@ -1,0 +1,2 @@
+The task goal is to clean a car. There is a car on the floor in the garage. A dusty rag and a bar of soap are on the shelf. The rag is not soaked. There is also a bucket on the floor. The agent is currently on the garage floor. The goal is to remove the dust from the car, soak the rag in the bucket with soap, and then use the rag to clean the car.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

@@ -1,0 +1,3 @@
+The task goal is to clean the oven. The oven is currently stained. On the floor, there is a receptacle, a soaked rag and a dry rag, as well as a newspaper. Inside the cabinet, there is soap, a scrub brush, and a dry scrub brush as shown in the images. The goal is to ensure that the oven is no longer stained.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

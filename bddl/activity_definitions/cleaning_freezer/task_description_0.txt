@@ -1,0 +1,5 @@
+The task goal is to clean the freezer. The electric refrigerator in the kitchen is stained. Inside the refrigerator, there are three items of food. On the kitchen table, there is a bottle of cleansing agent and a towel. The kitchen also contains a floor, a sink, a countertop, a stove, a door, a table, and a chair as shown in the images.
+
+The goal is to remove the stains from the electric refrigerator and ensure that there are no items of food inside it.
+
+Generate admissible procedural plans using the planning steps without natural language described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

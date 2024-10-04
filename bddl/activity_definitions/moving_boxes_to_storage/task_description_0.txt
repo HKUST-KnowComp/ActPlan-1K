@@ -1,0 +1,4 @@
+The task is to move boxes to storage. There are two cartons on the floor in the living room. The goal is to achieve the following: Place carton 1 on the floor in the storage room. Place carton 2 on top of carton 1.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+
+

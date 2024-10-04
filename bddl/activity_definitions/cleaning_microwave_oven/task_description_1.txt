@@ -1,0 +1,2 @@
+The task goal is to clean the microwave oven. The microwave oven is both dusty and stained. There are burnt cookies in the microwave. On the countertop, there is a rag as shown in the images. On the floor, there is an ashcan. The goal is to remove the dust and stains from the microwave oven.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

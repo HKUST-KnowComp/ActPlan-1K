@@ -1,0 +1,2 @@
+The task is to water the houseplants in the dining room and kitchen. There are three pot plants on the floor, one in kitchen and two in dining room. None of the pot plants are soaked as shown in the images. The goal is to achieve the following: Ensure that all pot plants are soaked.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

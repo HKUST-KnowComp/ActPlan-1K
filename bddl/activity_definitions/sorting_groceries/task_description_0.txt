@@ -1,0 +1,4 @@
+The task is to sort groceries in the kitchen. There are groceries placed in various locations on the table and countertop as shown in the images. The kitchen has a cabinet, a countertop, a table, and an electric refrigerator. The goal is to achieve the following:
+Ensure that the bread and flour are inside the cabinet. Ensure that the milk, meat, cheese, yogurt, and soup are inside the electric refrigerator. Ensure that each carrot is inside the electric refrigerator and is next to at least one other carrot. Ensure that the broccoli is inside the electric refrigerator. Ensure that each apple is inside the electric refrigerator and is next to at least one other apple.
+Ensure that each orange is on top of the table and is next to at least two other oranges.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

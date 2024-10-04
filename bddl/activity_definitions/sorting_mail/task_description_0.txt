@@ -1,0 +1,3 @@
+The task is to sort mail in the living room. There are envelopes and newspapers on the floor. The living room has a sofa and a floor. The goal is to achieve the following:
+Ensure that each envelope is touching at least one other envelope. Ensure that each newspaper is touching at least one other newspaper.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

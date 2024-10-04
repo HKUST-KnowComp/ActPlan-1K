@@ -1,0 +1,2 @@
+The task is to put away leftovers in the kitchen. There are pasta and sauce containers, oatmeals on the countertop. The goal is to achieve the following: Ensure that all the pasta containers are inside the electric refrigerator. Ensure that all the sauce containers are inside the electric refrigerator. Ensure that oatmeals in suitable containers.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

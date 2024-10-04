@@ -1,0 +1,3 @@
+The task goal is to clean the floors. The floor in the bathroom is both dusty and stained. There is a broom, a dustpan, cleansing agent, and a scrub brush on the floor. The bathroom also contains a door and a sink as shown in the images. The goal is to remove the stains and eliminate the dust from the floor.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

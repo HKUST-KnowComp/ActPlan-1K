@@ -1,0 +1,3 @@
+The task is to lay tile floors. There are four tiles on the floor in the corridor. The corridor is connected to the bathroom as shown in the images. The goal is to achieve the following: Place each tile on the floor in the bathroom.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

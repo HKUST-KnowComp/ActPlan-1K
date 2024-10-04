@@ -1,0 +1,3 @@
+The task is to put away Christmas decorations in the living room. There are wreaths, bows, and ribbons on the floor as shown in the image. The goal is to achieve the following:
+Ensure that all the wreaths are next to the cabinet. Ensure that all the bows are next to the cabinet. Ensure that all the ribbons are inside the cabinet.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

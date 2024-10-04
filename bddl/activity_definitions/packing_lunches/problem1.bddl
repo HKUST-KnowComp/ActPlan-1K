@@ -1,0 +1,88 @@
+(define (problem packing_lunches_0)
+    (:domain igibson)
+
+    (:objects
+     	salad.n.01_1 - salad.n.01
+    	electric_refrigerator.n.01_1 - electric_refrigerator.n.01
+    	sandwich.n.01_1 - sandwich.n.01
+    	chip.n.04_1 chip.n.04_2 - chip.n.04
+    	cabinet.n.01_1 - cabinet.n.01
+    	yogurt.n.01_1 - yogurt.n.01
+        eggplant.n.01_1 - eggplant.n.01
+    	table.n.02_1 - table.n.02
+    	milk.n.01_1 - milk.n.01
+    	plum.n.02_1 - plum.n.02
+        muffin.n.01_1 - muffin.n.01
+    	countertop.n.01_1 - countertop.n.01
+    	pomelo.n.02_1 - banana.n.02
+    	carton.n.02_1 carton.n.02_2 - carton.n.02
+    	cookie.n.01_1 cookie.n.01_2 - cookie.n.01
+    	floor.n.01_1 floor.n.01_2 - floor.n.01
+    	agent.n.01_1 - agent.n.01
+    )
+    
+    (:init 
+        (inside salad.n.01_1 electric_refrigerator.n.01_1) 
+        (inside sandwich.n.01_1 electric_refrigerator.n.01_1) 
+        (inside chip.n.04_1 cabinet.n.01_1) 
+        (inside chip.n.04_2 cabinet.n.01_1) 
+        (ontop yogurt.n.01_1 table.n.02_1) 
+        (ontop milk.n.01_1 table.n.02_1) 
+        (ontop plum.n.02_1 countertop.n.01_1) 
+        (ontop pomelo.n.02_1 countertop.n.01_1) 
+        (ontop eggplant.n.01_1 countertop.n.01_1) 
+        (onfloor carton.n.02_1 floor.n.01_2) 
+        (onfloor carton.n.02_2 floor.n.01_2) 
+        (ontop muffin.n.01_1 countertop.n.01_1) 
+        (ontop cookie.n.01_1 countertop.n.01_1) 
+        (burnt cookie.n.01_1)
+        (ontop cookie.n.01_2 countertop.n.01_1) 
+        (inroom cabinet.n.01_1 kitchen) 
+        (inroom countertop.n.01_1 kitchen) 
+        (inroom table.n.02_1 kitchen) 
+        (inroom electric_refrigerator.n.01_1 kitchen) 
+        (inroom floor.n.01_1 kitchen) 
+        (inroom floor.n.01_2 living_room) 
+        (onfloor agent.n.01_1 floor.n.01_1)
+    )
+    
+    (:goal 
+        (and 
+            (forpairs 
+                (?chip.n.04 - chip.n.04) 
+                (?carton.n.02 - carton.n.02) 
+                (inside ?chip.n.04 ?carton.n.02)
+            ) 
+            (inside ?cookie.n.01_2 ?carton.n.02_1)
+            (inside ?muffin.n.01_1 ?carton.n.02_1)
+            (exists 
+                (?carton.n.02 - carton.n.02) 
+                (and 
+                    (inside ?salad.n.01_1 ?carton.n.02) 
+                    (inside ?yogurt.n.01_1 ?carton.n.02) 
+                    (not 
+                        (inside ?sandwich.n.01_1 ?carton.n.02)
+                    )
+                )
+            ) 
+            (exists 
+                (?carton.n.02 - carton.n.02) 
+                (and 
+                    (inside ?sandwich.n.01_1 ?carton.n.02) 
+                    (inside ?milk.n.01_1 ?carton.n.02) 
+                    (not 
+                        (inside ?salad.n.01_1 ?carton.n.02)
+                    )
+                )
+            ) 
+            (or 
+                (inside ?plum.n.02_1 ?carton.n.02_1) 
+                (inside ?pomelo.n.02_1 ?carton.n.02_1)
+            ) 
+            (or 
+                (inside ?plum.n.02_1 ?carton.n.02_2) 
+                (inside ?pomelo.n.02_1 ?carton.n.02_2)
+            )
+        )
+    )
+)

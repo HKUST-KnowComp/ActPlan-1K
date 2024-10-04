@@ -1,0 +1,3 @@
+The task is to wash dishes in the kitchen. There are plates, a bowl, and a cup on the countertop. There is a scrub brush inside the sink. The plates, cup, and bowl are stained as show in the images. The goal is to achieve the following:Ensure that all plates are not stained. Ensure that the cup is not stained. Ensure that the bowl is not stained.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

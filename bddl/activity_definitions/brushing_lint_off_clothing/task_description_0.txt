@@ -1,0 +1,2 @@
+The task goal is to brush lint off clothing. There are four sweaters in the bedroom: two on the floor and two on the bed. All the sweaters are dusty. There is also a scrub brush on the floor, which is not dusty as shown in the images. 
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

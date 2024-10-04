@@ -1,0 +1,2 @@
+The task is to thaw frozen food in the kitchen. There are frozen fish, a frozen date, and a frozen olive inside the electric refrigerator. There is a bucket and colander on the countertop. The goal is to achieve the following: Ensure that the date is next to the fish. Ensure that each fish is next to the sink. Ensure that the olive is next to the sink.
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

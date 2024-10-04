@@ -1,0 +1,3 @@
+The task is to prepare a shower for a child in the bathroom. There is shampoo, soap, and a towel on the floor in the bathroom as shown in the images. The goal is to achieve the following: Ensure that the towel is on the floor. Ensure that the shampoo is on the floor. Ensure that the soap is next to the sink.
+
+Generate admissible procedural plans using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.

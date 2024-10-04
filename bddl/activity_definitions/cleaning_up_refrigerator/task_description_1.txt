@@ -1,0 +1,5 @@
+The task goal is to clean up the refrigerator. The refrigerator contains trays, four bowls, two beers. The trays are stained, and the bowls are dusty. There are two rags inside the cabinet. The soap is on the countertop. The sink is located in the kitchen, along with the refrigerator, countertop, cabinet, and floor as shown in the images. 
+
+The goal is to have both rags next to the sink, the soap inside the sink, all trays inside the refrigerator without stains, the bowl next to the sink without dust, and the refrigerator free of stains.
+
+Generate admissible procedural plans without natural language, using the planning steps described with action(object). The available actions include walk_to, place_on_top, grab, place_inside, open/close, and switch-on/off.
