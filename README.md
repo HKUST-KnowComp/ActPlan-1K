@@ -27,7 +27,7 @@ This is the code repo for EMNLP 2024 main conference paper: ActPlan-1K: Benchmar
 
    3. Record vedios when touring the house after loading the scene instances. Select images that cover the main contents from the recorded image collections. The sampled images will be used as additional visual input in prompting. 
    
-   An example ActPlan-1K instance is under folder `./annotation`. The full dataset including all annotations and sampled urdfs for counterfactual activities will be released soon.
+   An example ActPlan-1K instance is under folder `./annotation`. `Beechwood_0_int/assembling_gift_baskets/0` contains normal activity and `Beechwood_0_int/assembling_gift_baskets/1` contains counterfactual activity. The full dataset including all annotations and sampled urdfs for counterfactual activities are released and can be [downloaded](https://drive.google.com/file/d/1jw6I7NnAbcD7zgHKg5-w-fpXaBrkpB7h/view?usp=sharing).
 
 ## Auto Evaluation
 

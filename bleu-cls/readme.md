@@ -24,10 +24,10 @@
 
    Finetuning with BLEURT-base model:
    ```
-   CUDA_VISIBLE_DEVICES=1 python finetune_large.py
+   CUDA_VISIBLE_DEVICES=0 python finetune_large.py
    ```
 
    Finetuning with BLEURT model:
    ```
-   CUDA_VISIBLE_DEVICES=1 python finetune.py
+   CUDA_VISIBLE_DEVICES=0 python finetune.py
    ```
